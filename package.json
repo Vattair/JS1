@@ -1,0 +1,23 @@
+{
+  "name": "js1",
+  "version": "1.0.0",
+  "description": "js1",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vattair/JS1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vattair/JS1/issues"
+  },
+  "homepage": "https://github.com/Vattair/JS1#readme"
+}
