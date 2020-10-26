@@ -7,6 +7,64 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="box">
+        <h1>Nagraj swój utwór</h1>
+        <div>
+            <h3>Graj za pomocą klawiszy klawiatury</h3>
+            <div id="litery">
+            <h4>
+                    <span class="nowrap">A - boom</span> &nbsp;&nbsp;
+                    <span class="nowrap">S - Clap</span> &nbsp;&nbsp;
+                    <span class="nowrap">D - Hihat</span> &nbsp;&nbsp;
+                    <span class="nowrap">F - Kick</span> &nbsp;&nbsp;
+                    <span class="nowrap">G - Openhat</span> &nbsp;&nbsp;
+                    <span class="nowrap">H - Ride</span> &nbsp;&nbsp;
+                    <span class="nowrap">J - Snare</span> &nbsp;&nbsp;
+                    <span class="nowrap">K - Tink</span> &nbsp;&nbsp;
+                    <span class="nowrap">L - Tom</span>
+                        </h4>
+            </div>
+        </div>
+
+        <div class="boxtrack">
+            <h3>Ścieżka 1</h3>
+            <button class="novisibleonload" id="recordBtn1">Rozpocznij Nagrywanie</button>
+            <button class="novisibleonload" id="stopRecordBtn1">Zatrzymaj Nagrywanie</button>
+            <button id="clearBtn1">Wyczyść</button>
+            <button id="playBtn1">Odtwórz</button>
+        </div>
+
+        <div class="boxtrack">
+            <h3>Ścieżka 2</h3>
+            <button class="novisibleonload" id="recordBtn2">Rozpocznij Nagrywanie</button>
+            <button class="novisibleonload" id="stopRecordBtn2">Zatrzymaj Nagrywanie</button>
+            <button id="clearBtn2">Wyczyść</button>
+            <button id="playBtn2">Odtwórz</button>
+        </div>
+
+        <div class="boxtrack">
+            <h3>Ścieżka 3</h3>
+            <button class="novisibleonload" id="recordBtn3">Rozpocznij Nagrywanie</button>
+            <button class="novisibleonload" id="stopRecordBtn3">Zatrzymaj Nagrywanie</button>
+            <button id="clearBtn3">Wyczyść</button>
+            <button id="playBtn3">Odtwórz</button>
+        </div>
+
+        <div class="boxtrack">
+            <h3>Ścieżka 4</h3>
+            <button class="novisibleonload" id="recordBtn4">Rozpocznij Nagrywanie</button>
+            <button class="novisibleonload" id="stopRecordBtn4">Zatrzymaj Nagrywanie</button>
+            <button id="clearBtn4">Wyczyść</button>
+            <button id="playBtn4">Odtwórz</button>
+        </div>
+
+        <div id="allRecordsBox">
+            <button id="clearBtn">Wyczyść wszystkie</button>
+            <button id="playBtn">Odtwórz wszystkie</button>
+        </div>
+    </div>
+
+
     <audio src="sounds/boom.wav" id="boom"></audio>
     <audio src="sounds/clap.wav" id="clap"></audio>
     <audio src="sounds/hihat.wav" id="hihat"></audio>
@@ -16,8 +74,6 @@
     <audio src="sounds/snare.wav" id="snare"></audio>
     <audio src="sounds/tink.wav" id="tink"></audio>
     <audio src="sounds/tom.wav" id="tom"></audio>
-    <button id="recordBtn">Record</button>
-    <button id="playBtn">Play</button>
     <script src="main.js" type="text/javascript"></script>
 </body>
 </html>
