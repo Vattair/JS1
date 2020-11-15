@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+    margin: 0px;
+    padding: 20px;
+    flex: auto;
+    justify-content: center;
+}
+.note{
+    width: 300px;
+    padding: 20px;
+    margin-top: 2em;
+    background-color: rgba(255, 255, 255, 0.411);
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 15px; 
+}
